@@ -165,8 +165,16 @@ color: var(--color-ocean);
 	color: var(--body-color);
 	padding: 188px 0;
 
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 	
 }
+
+
+
+
 
 .hero-header{
 	font-size: 56px;
@@ -177,6 +185,7 @@ color: var(--color-ocean);
 	text-align: center;
 	margin: 0 auto 48px;
   color: var(--white);
+  
 }
 .header-button{
 	font-size: 16px;
@@ -312,7 +321,7 @@ padding: 120px 0;
 }
 
 .crew-list{
-	background-color: #FFFFFF;
+    background-color: rgb(244, 244, 253);
 	display: flex;
 	gap: 24px;
 }
@@ -339,6 +348,7 @@ color: var(--color-navy-blue);
 background-color: #FFFFFF;
 text-align: center;
 margin-bottom: 8px;
+
 }
 
 .crew-work{
