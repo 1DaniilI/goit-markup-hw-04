@@ -252,7 +252,7 @@ padding-bottom: 120px;
 
   .strategy-item-text {
 	color: var(--first-title-color);
-	/* margin-bottom: 8px; */
+	
   }
 
   .stratege-cont {
@@ -332,6 +332,33 @@ position: absolute;
 padding: 120px 0;
 }
 
+
+.team-soc-list{
+display: flex;
+justify-content: center;
+gap: 24px;
+
+}
+
+.team-soc-item{
+width: 40px;
+height: 40px;
+
+}
+
+.team-soc-link{
+width: 100%;
+height: 100%;
+background-color: #4D5AE5;
+border-radius: 50%;
+display: block;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
 .item-header{
 	font-size: 36px;
 	line-height: 1.11;
@@ -396,6 +423,7 @@ margin-bottom: 8px;
 
 .crew-work{
 	text-align: center;
+	margin-bottom: 8px;
 }
 
 .footer-logo{
@@ -433,6 +461,11 @@ margin-bottom: 8px;
 }
 
 
+	.footer-container {
+		display: flex;
+		align-items: baseline;
+}
+
 .footer-text{
 	font-size: 16px;
 	line-height: 24px;
@@ -440,6 +473,7 @@ margin-bottom: 8px;
 	color: #F4F4FD;
 	margin-top: 16px;
   max-width: 264px;
+
 	}
 
 
@@ -540,3 +574,48 @@ margin-bottom: 8px;
 	color: #f4f4fd;
 	
 }
+.footer-item-text {
+	color: #f4f4fd;
+	max-width: 264px;
+  }
+
+  
+  .footer-div {
+	margin-right: 120px;
+  }
+  
+  
+.social-media {
+	position: absolute;
+	width: 208px;
+	height: 80px;
+  }
+  .social-media-text {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height, or 150% */
+  
+	letter-spacing: 0.02em;
+  
+	/* WHITE */
+  
+	color: #ffffff;
+	margin-bottom: 16px;
+  }
+.footer-soc-list {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+  }
+  .footer-soc-link {
+	width: 100%;
+	height: 100%;
+	background-color: #4d5ae5;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
