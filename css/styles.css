@@ -39,6 +39,8 @@ img{
 .header{
     background-color: var(--color-white);
 	border-bottom: 1px solid #e7e9fc;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -331,7 +333,6 @@ gap: 24px;
 .team-soc-item{
 width: 40px;
 height: 40px;
-
 }
 
 .team-soc-link{
@@ -358,8 +359,8 @@ align-items: center;
 
   .team-soc-icon {
 	fill: #f4f4fd;
-	/* width: 24px; 
-	height: 24px; */
+	width: 24px; 
+	height: 24px;
   }
 
 
