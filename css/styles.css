@@ -49,9 +49,9 @@ img{
 
 }
 
-.container.header{
-display: flex;
-
+.header-container {
+	display: flex;
+	align-items: center;
 }
 
 .nav{
@@ -101,16 +101,10 @@ text-decoration: none;
 margin-right: 76px;
 }
 
-.header-logo span{ 
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--color-grey);
-
-}
+.header-logo-span{ 
+	color: var(--color-grey);
+	
+	}
 
 .nav-items{
 	list-style: none;
@@ -118,27 +112,19 @@ color: var(--color-grey);
 	gap: 40px;
 }
 
+
 .nav-link{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--color-navy-blue);
-text-decoration:none;
-display: flex;
-gap: 40px;
+color: #2E2F42;
 padding: 24px 0;
 }
 
 
-
-
 .header-address{
-	display: flex;
-  align-items: center;
-  gap: 40px;
 	font-style: normal;
-	letter-spacing: 0.02em;
 	margin-left: auto;
 }
 
@@ -214,10 +200,12 @@ background-size: cover;
 
 
 .address-link{
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: #434455;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 	  .section-feature{
@@ -363,11 +351,20 @@ align-items: center;
   .team-soc-link:focus {
 	background-color: #404bbf;
   }
+
+
+
+
+
   .team-soc-icon {
 	fill: #f4f4fd;
-	width: 24px;
-	height: 24px;
+	/* width: 24px; 
+	height: 24px; */
   }
+
+
+
+
 
 .test {
 	padding-top: 120px;
@@ -506,17 +503,11 @@ margin-bottom: 8px;
 	text-transform: uppercase;
 	color: var(--color-grey);
 	display: inline-block;
+	margin-bottom: 16px;
 	}
 
 	.footer-logo span{ 
-	font-family: 'Raleway';
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: var(--color-iris);
-	display: inline-block;
+		color: #f4f4fd;
 	}
 
 .footer{
@@ -536,11 +527,10 @@ margin-bottom: 8px;
 }
 
 .footer-text{
-	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: var(--footer-text-color);
 	color: #F4F4FD;
-	margin-top: 16px;
   max-width: 264px;
 
 	}
