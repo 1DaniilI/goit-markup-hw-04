@@ -488,6 +488,7 @@ margin-bottom: 8px;
 
 }
 
+
 .crew-work{
 	text-align: center;
 	margin-bottom: 8px;
@@ -502,11 +503,11 @@ margin-bottom: 8px;
 }
 
 .item-text:hover {
-	color: #404bbf;
-  }
-  .item-text:focus {
-	color: #404bbf;
-  }
+  color: #404bbf;
+}
+.item-text:focus {
+  color: #404bbf;
+}
 
 
 /* FOOTER */
