@@ -294,6 +294,11 @@ position: absolute;
   overflow: hidden;
 }
 
+.foto-title{
+	color: var(--second-title-color);
+  margin-bottom: 72px;
+}
+
 .works-item{
 	display: flex;
 	gap: 24px;
@@ -358,7 +363,7 @@ align-items: center;
 
 
 
-
+  
 
 
 
@@ -472,9 +477,14 @@ align-items: center;
 .image-name{
 	padding: 32px 16px;
 	border-top: none;
-	border: 1px solid #e7e9fc;
+
 }
 
+.image-name-name{
+	padding: 32px 16px;
+	border-top: none;
+	border: 1px solid #e7e9fc;
+}
 
 .crew-name{
 font-weight: 500;
