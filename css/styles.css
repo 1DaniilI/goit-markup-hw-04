@@ -279,6 +279,7 @@ text-transform: capitalize;
 color: #2E2F42;
 background-color: var(--body-color);
 margin-bottom: 72px;
+margin-top: 112px;
 }
 
 .visually-hidden{
@@ -294,10 +295,7 @@ position: absolute;
   overflow: hidden;
 }
 
-.foto-title{
-	color: var(--second-title-color);
-  margin-bottom: 72px;
-}
+
 
 .works-item{
 	display: flex;
